@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main,
@@ -14,12 +15,11 @@
 
 .main {
   width: 75vw;
-  height: 150vh;
+  /* height: 150vh; */
   border-color: #d3bfbf;
 }
 
 .text {
-  padding-top: 10px;
   padding-left: 40px;
   padding-right: 20px;
 }
@@ -41,7 +41,7 @@
 }
 
 .numeral {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .numeral a {
@@ -61,10 +61,18 @@ body {
 h1,
 h2,
 .numeral {
-  font-family: Georgia, "Times New Roman", Times, serif;
   padding-top: 20px;
 }
 
-p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+li {
+  padding-bottom: 10px;
+}
+
+.name {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-top: 20px;
 }
