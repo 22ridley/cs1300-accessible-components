@@ -59,9 +59,12 @@ body {
 }
 
 h1,
-h2,
 .numeral {
   padding-top: 20px;
+}
+
+h2 {
+  padding-top: 60px;
 }
 
 li {
@@ -96,6 +99,35 @@ table {
   padding-bottom: 20px;
 }
 
+.left-pad {
+  padding-left: 30px;
+}
+
+.right-pad {
+  padding-right: 30px;
+}
+
+.top-pad {
+  padding-top: 20x;
+}
+
 .col {
+  width: 32%;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.col-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col-box-item {
   width: 32%;
 }
