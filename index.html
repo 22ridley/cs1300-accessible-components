@@ -39,42 +39,404 @@
           </p>
           <h2 id="input">I: Input</h2>
           <p>
-            As mentioned, this case study focuses on the dropdown menu UI
-            component. I examined three different applications with dropdown
-            menus, including the EdStem web application, the Appple Calendar
-            application, and the Starbucks web application/mobile app.
+            This case study focuses on the dropdown menu UI component. I
+            examined three different applications with dropdown menus, including
+            the EdStem web application, the Appple Calendar web/mobile
+            application, and the Starbucks web application/mobile app. For
+            context, EdStem is a message board platform that facilitates
+            student, TA, and professor interactions, that is commonly used at
+            Brown. I first explored how different modes of input, including the
+            mouse/touchpad, keyboard, and touch (on mobile) enabled different
+            interactions with the dropdown menus in these three applications.
           </p>
           <h3>EdStem Web App</h3>
           <img src="public/edstem-screenshots.svg" />
           <ul>
-            <li>Mouse/Touchpad</li>
+            <li><b>Mouse/Touchpad</b></li>
             <ul>
-              <li>The</li>
+              <li>
+                The top screenshots show EdStem's 'filter' dropdown menu for
+                filtering EdStem posts on the desktop web application.
+                Interacting with this component with my mouse, when I hover over
+                the filter button, the button turns from gray to blue. Once I
+                click on the button, the dropdown menu appears below the filter
+                button. No matter where I move my mouse on the screen, the
+                dropdown menu stays visible. When I click anywhere other than
+                the dropdown menu, the menu disappears.
+              </li>
+              <li>
+                If instead I hover over the options while the dropdown menu is
+                visible, each individual option turns blue on hover. Then, if I
+                click on one of the options in the dropdown menu, the menu also
+                disappears, but also changes the selected filter. However, with
+                my mouse, I cannot select the text in any of the options in the
+                dropdown menu. So, I cannot copy and paste this text elsewhere.
+              </li>
+              <li>
+                One element of using the dropdown with my mouse that is
+                learnable is that the dropdown menu has a small down arrow on
+                it. This is learnable because if I was using this UI for the
+                first time, the down arrow is a good affordance for me to
+                realize that I should try clicking on it, and something (the
+                dropdown options) will appear below. Something efficient is the
+                order that the dropdown options appear in, since this order
+                never changes, so users can get a muscle-memory about how far to
+                move their mouse in case they frequently need to filter for only
+                'unread' messages.
+              </li>
+              <li>
+                Specifically considering mouse/touchpad interactions, the
+                accessibility of EdStem's dropdown menu is pretty comparable to
+                that of Apple Calendar and Starbucks. One feature that stood out
+                about EdStem's filter button using the mouse was that the filter
+                button turns blue on hover, whereas neither Apple Calendar or
+                Starbucks change color on hover. This makes it easier for
+                someone using the mouse to see that they are in range to click
+                the button they want to press, in case they are trying to use
+                filter but have some difficulties discerning which components
+                are buttons.
+              </li>
             </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
+            <li><b>Keyboard</b></li>
+            <ul>
+              <li>
+                To use the dropdown menu with the keyboard only, I had to press
+                the tab button many times until the filter button was selected.
+                Once this button was selected, then I had to press the return
+                key, which opened the dropdown menu. Then, I could use the up
+                and down arrows to change which option was highlighted. Then,
+                when I pressed return, the highlighted option was inputted.
+              </li>
+              <li>
+                One thing I can't do with my keyboard is select the text in the
+                dropdown menu (which I also couldn't do with my keyboard). I
+                tried to use the Command + A shortcut to select the text, but it
+                selected all the other text on the page except the text in the
+                dropdown menu. One thing that I could do with my keyboard was
+                close the dropdown menu without selecting anything by using the
+                escape key.
+              </li>
+              <li>
+                Something memorable about this component is that its pretty
+                intuitive that you can use the up and down arrows to navigate
+                once you've hit return on the filter button. While I think this
+                is memorable, I don't think its very learnable. You use the tab
+                key to select the filter button, but then have to use the up and
+                down keys once you're in the dropdown. To me, it would me easier
+                to pick up if you always used the tab key to switch to highlight
+                different things, and the return key to make your ultimate
+                selection.
+              </li>
+              <li>
+                Compared to Apple Calendar and Starbucks, I found that EdStem
+                did better in terms of accessibility. As described below, both
+                Apple Calendar and Starbucks were more confusing and difficult
+                to use simply with my keyboard, which is often how people with
+                physical disabilities interact with websites, instead of with
+                the mouse/touchpad.
+              </li>
+            </ul>
+            <li><b>Touch (Mobile)</b></li>
+            <ul>
+              <li>
+                The bottom screenshots above show my interactions with the
+                filter dropdown menu on the EdStem website from a mobile device.
+                On my phone, the dropdown menu comes up from the bottom of my
+                screen, and covers the rest of the screen. From there, you can
+                click on of the filters, which closes the dropdown, or click
+                Cancel, which closes the dropdown without filtering.
+              </li>
+              <li>
+                Similarly to the mouse and keyboard, I cannot highlight the text
+                in the dropdown on my phone. When I try to press and hold on the
+                text, nothing happens, and when I release, the dropdown menu
+                select whichever filter whose text I was trying to highlight.
+                One thing this component can do is scroll. Specifically, if
+                there are too many filter options to fit the screen height, I
+                can scroll to see more options below.
+              </li>
+              <li>
+                One thing that is efficient about this dropdown is that someone
+                only needs to quick taps to select the filter they want, and
+                they can memorize the positions of these clicks if they use
+                filter posts on EdStem frequently. One thing that's not very
+                learnable about this dropdown menu is that when the dropdown is
+                opened, it fills the entire screen. This means that someone who
+                accidentally hits the filter button that opens the dropdown will
+                have no idea what button they accidentally pressed when first
+                using the app.
+              </li>
+              <li>
+                However, this makes the EdStem mobile dropdown more accessible
+                in some ways than the Apple Calendar or Starbucks. Filling the
+                entire screen does make each option bigger, which is more
+                accessible to people who struggle with fine motor controls.
+              </li>
+            </ul>
           </ul>
           <h3>Calendar Mac App/Mobile App</h3>
           <img src="public/calendar-screenshots.svg" />
           <ul>
-            <li>Mouse/Touchpad</li>
+            <li><b>Mouse/Touchpad</b></li>
             <ul>
-              <li>The</li>
+              <li>
+                The left screenshots show Apple Calendar's dropdown menu for
+                choosing a calendar to assign an event on the desktop web
+                application. Interacting with this component with my mouse, when
+                I hover over the button that opens the dropdown, the button does
+                not change. Once I click on the button, the dropdown menu
+                appears on top of the button. Wherever I move my mouse on the
+                screen, the dropdown menu stays visible. When I click anywhere
+                other than the dropdown menu, the menu disappears.
+              </li>
+              <li>
+                While the dropdown menu is visible, if I hover over the options,
+                each individual option turns pink on hover. This pink is a
+                setting that I chose myself. Then, if I click on one of the
+                options in the dropdown menu, the menu also disappears, but also
+                changes the selected calendar. With my mouse, I cannot select
+                the text in any of the options in the dropdown menu. Like for
+                EdStem, I cannot copy and paste this text to somewhere else.
+              </li>
+              <li>
+                One element of using the dropdown with my mouse that is not as
+                learnable as it could be is that the dropdown menu has an up
+                arrow and a down arrow on the button that opens it. I don't
+                think this is very learnable because for a dropdown, I would
+                expect just a down arrow. There is also no text on this button
+                that says anything about choosing a calendar. However, this is
+                efficient from a space perspective. And, as users get
+                comfortable with Apple Calendar, they already know what the
+                button does and can find it quickly.
+              </li>
+              <li>
+                Using the touchpad, the accessibility of Apple Calendar's
+                dropdown menu has a lot in common with EdStem and Starbucks.
+                But, unlike EdStem's filter button, hovering over the dropdown
+                menu button does not make it change colors. I think that making
+                it change colors on hover would be more accessible, since it's
+                easier for someone to know that this is a button that is
+                clickable. On the other hand, one thing that makes the Apple
+                Calendar dropdown menu uniquely accessible is that the text
+                color changes when I hover on one of the dropdown option. This
+                is because the background color changes to pink, so the text
+                changes to white to ensure contrast for those with visual
+                impairments.
+              </li>
             </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
+            <li><b>Keyboard</b></li>
+            <ul>
+              <li>
+                Using only the keyboard to navigate this dropdown menu on Apple
+                Calendar was pretty difficult (if not impossible). I could use
+                the tab key to select different calendar events, then I pressed
+                enter to open the editing mode for that calendar event. However,
+                as I tabbed through the options on this menu, the dropdown menu
+                button was never highlighted. So, I was unsuccessful in using
+                only the keyboard. However, once I clicked the dropdown, I was
+                able to use the up and down arrow keys to switch between
+                selections.
+              </li>
+              <li>
+                Similar to the EdStem dropdown, I couldn't select the text in
+                the dropdown menu. When I pressed Command + A when I had the
+                dropdown open, nothing happened. When I pressed Command C, it
+                closed the dropdown menu. Then, I pasted in a text file to see
+                if it had copied anything, and it copied all the information
+                about the calendar event, not just the dropdown calendar
+                information.
+              </li>
+              <li>
+                I found it frustrating that I couldn't navigate into the
+                calendar dropdown with my keyboard only. This really hurts
+                learnability, particularly because the action can't be done in
+                the first place. Of course, this also impedes memorability and
+                efficiency.
+              </li>
+              <li>
+                Not only does not being able to be navigable with the keyboard
+                impede usability, it also of course is very inaccessible. This
+                is a clear instance of a mismatch, as this is a dropdown that
+                can only be used with the touchpad, and as far as I could find,
+                could not be opened with my keyboard only. Those with physical
+                impairments therefore likely struggle to change the calendar
+                that their events are assigned to.
+              </li>
+            </ul>
+            <li><b>Touch (Mobile)</b></li>
+            <ul>
+              <li>
+                The right screenshots above show my interactions with the
+                calendar dropdown menu on the Apple Calendar app from a mobile
+                device. On my phone, the dropdown menu pulls up and covers the
+                right half of my screen. I can scroll when the options overflow,
+                click to the left to leave the dropdown, or select one of the
+                options.
+              </li>
+              <li>
+                Again, I cannot highlight the text in the dropdown on my phone.
+                When I try to press and hold on the text, nothing happens, and
+                when I release, the dropdown menu select whichever calendar
+                whose text I was trying to highlight. One thing this component
+                can do is scroll. When I try to drag the text, nothing happens.
+                This limits the functionality to only selecting one of the
+                calendars.
+              </li>
+              <li>
+                One thing that makes the mobile dropdown more learnable than the
+                desktop dropdown is that the name of the current calendar is
+                part of the button to open the dropdown menu. This makes it more
+                learnable and memorable because someone using the app for the
+                first time, or the first time in a while, will more quickly
+                understand that the dropdown will let them choose a different
+                calendar for this event if they want to.
+              </li>
+              <li>
+                Compared to the EdStem and Starbucks mobile dropdowns, I think
+                that the Apple Calendar one is slightly less accessible. Unlike
+                the others, it does not fill the entire screen by default. This
+                makes it easier to accidentally click out of the dropdown. For
+                the EdStem and Starbucks mobile dropdowns, you can only close
+                them with an explicit Cancel or X button. Although, if you open
+                this dropdown by accident, this makes the Apple Calendar
+                dropdown more accessible since it is easier to close. So, it
+                really depends on the user's goals.
+              </li>
+            </ul>
           </ul>
           <h3>Starbucks Web App/Mobile App</h3>
           <img src="public/starbucks-screenshots.svg" />
           <ul>
-            <li>Mouse/Touchpad</li>
+            <li><b>Mouse/Touchpad</b></li>
             <ul>
-              <li>The</li>
+              <li>
+                The left screenshots show my interactions with Starbucks' web
+                application, specifically with the dropdown for choosing a milk
+                or milk alternative. Using my mouse, when I hover over the
+                button that opens the dropdown, the button does not change. But,
+                once I click on the button, it turns green, and the dropdown
+                menu appears on top of the button. Wherever I move my mouse on
+                the screen, the dropdown menu stays visible. When I click
+                anywhere other than the dropdown menu, the menu disappears.
+              </li>
+              <li>
+                With the dropdown menu open, if I hover over the milk options,
+                each option turns pink. Like with the calendar app, this pink is
+                a setting that I chose. Then, if I click on one of the options
+                in the dropdown menu, the menu disappears and changes the
+                selected milk. With my mouse, I cannot select the text in any of
+                the options in the dropdown menu. Visually, this appears to be
+                Apple's built-in dropdown menu, so it functions very similarly
+                to the Apple Calendar dropdowns on my Mac.
+              </li>
+              <li>
+                One thing that makes using this dropdown with my mouse pretty
+                learnable is that the dropdown menu is labeled with 'Milk' and
+                has a down arrow on the button to open the dropdown. This is a
+                very clear affordance of where to click, and I appreciate this
+                consideration for learnability and memorability. One thing that
+                could make enhance efficiency for this component would be if
+                repeat customers could have a favorites section at the top of
+                the this dropdown where they could save the milk that they
+                always get, since many customers have strong milk preferences.
+              </li>
+              <li>
+                Regarding mouse/touchpad interactions, the accessibility of
+                Apple Calendar's dropdown menu is similar to EdStem and
+                Starbucks. But, unlike EdStem's filter button, hovering over the
+                dropdown menu button does not make it change colors. I think
+                that making it change colors on hover would be more accessible,
+                since it's easier for someone to know that this is a button that
+                is clickable. On the other hand, one thing that makes the Apple
+                Calendar dropdown menu uniquely accessible is that the text
+                color changes when I hover on one of the dropdown option. This
+                is because the background color changes to pink, so the text
+                changes to white to ensure contrast for those with visual
+                impairments.
+              </li>
             </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
+            <li><b>Keyboard</b></li>
+            <ul>
+              <li>
+                Disappointingly, I struggled to use my keyboard to navigate this
+                component on the Starbucks website. I was able to use the tab
+                key to focus on the button to open the dropdown. However, when I
+                pressed the return key, nothing happened, and the dropdown menu
+                did not open. I tried several other buttons, but they either did
+                nothing or focused on the next element on the page. When I
+                clicked the button to open the dropdown menu, I was able to use
+                my up and down keys to navigate the options.
+              </li>
+              <li>
+                Like the EdStem and Apple Calendar dropdowns, I couldn't select
+                the text in the dropdown. I tried Command + A, but this closed
+                the dropdown menu and highlighted all the other text on the
+                page. Also, nothing happened when I tried to drag and drop the
+                text from the dropdown elsewhere, except for closing the
+                dropdown.
+              </li>
+              <li>
+                Similarly to Apple Calendars, I was disappointed that I failed
+                to navigate into the milk dropdown with my keyboard. Again, this
+                blocks the learnability, memorability, and efficiency of this
+                feature.
+              </li>
+              <li>
+                These problems discussed particularly apply to those with
+                physical disabilities who are the most likley to only use a
+                keyboard or a similar device to navigate their screen. These
+                dropdowns that are completely unusable without a mouse create a
+                mismatch that prevent many users from being able to participate
+                in these products.
+              </li>
+            </ul>
+            <li><b>Touch (Mobile)</b></li>
+            <ul>
+              <li>
+                The right screenshots above show my interactions with the
+                calendar dropdown menu on the Starbucks app from a mobile
+                device. On my phone, the dropdown menu comes up from the bottom
+                and covers almost the entire screen. I can scroll when the
+                options overflow, click to the X to leave the dropdown, or
+                select one of the options.
+              </li>
+              <li>
+                One other interesting functionality that this dropdown has is
+                that I can minimize the dropdown menu by dragging the top
+                halfway down my screen. Now, the menu only takes up the bottom
+                half, as shown in my screenshots. Like the other mobile
+                applications, I cannot highlight the text in the dropdown.
+              </li>
+              <li>
+                Something I appreciate about the Starbucks apps I have looked at
+                is that the website and the mobile app have very similar
+                dropdown designs. This makes the apps more efficient for users
+                who might switch between the website and the mobile app. This
+                also makes one more learnable for those who have already used
+                the other.
+              </li>
+              <li>
+                In relation to the EdStem and Apple Calendar mobile dropdowns,
+                one thing that makes the Starbucks mobile dropdown less
+                accessible is that the motions to scroll and exit the dropdown
+                are very similar. While there is an X button to leave the
+                dropdown menu, it's pretty small, so the more intuitive option
+                for some users might be to swipe down out of the menu. However,
+                since there are so many milks, scrolling also reveals more milk
+                options in the dropdowns. Having two different functionalities
+                require the same input limits accessibility, particularly for
+                users with poor motor control.
+              </li>
+            </ul>
           </ul>
           <h2 id="output">II: Output</h2>
+          <p>
+            After exploring inputs, I also explored outputs from the dropdown
+            menus on these three applications. The inputs can change the state
+            of a dropdown component, and the output reflects these state changes
+            to the user. So, I explored outputs including button colors, text
+            label, focus order, and screen reader output.
+          </p>
           <h3>EdStem Web App</h3>
           <ul>
             <li>Mouse/Touchpad</li>
@@ -85,23 +447,7 @@
             <li>Touch (Mobile)</li>
           </ul>
           <h3>Calendar Mac App/Mobile App</h3>
-          <ul>
-            <li>Mouse/Touchpad</li>
-            <ul>
-              <li>The</li>
-            </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
-          </ul>
           <h3>Starbucks Web App/Mobile App</h3>
-          <ul>
-            <li>Mouse/Touchpad</li>
-            <ul>
-              <li>The</li>
-            </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
-          </ul>
           <h2 id="redesign">III: State Models & Component Redesign</h2>
           <h2 id="reflection">IV: Reflection</h2>
           <h2 id="display">V: Display</h2>
