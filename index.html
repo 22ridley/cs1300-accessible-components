@@ -376,8 +376,8 @@
                 dropdown.
               </li>
               <li>
-                Similarly to Apple Calendars, I was disappointed that I failed
-                to navigate into the milk dropdown with my keyboard. Again, this
+                Similarly to Apple Calendar, I was disappointed that I failed to
+                navigate into the milk dropdown with my keyboard. Again, this
                 blocks the learnability, memorability, and efficiency of this
                 feature.
               </li>
@@ -430,24 +430,194 @@
             </ul>
           </ul>
           <h2 id="output">II: Output</h2>
-          <p>
+          <p class="pad">
             After exploring inputs, I also explored outputs from the dropdown
             menus on these three applications. The inputs can change the state
             of a dropdown component, and the output reflects these state changes
-            to the user. So, I explored outputs including button colors, text
-            label, focus order, and screen reader output.
+            to the user. So, I explored outputs including colors, text label,
+            focus order, and screen reader output.
           </p>
-          <h3>EdStem Web App</h3>
-          <ul>
-            <li>Mouse/Touchpad</li>
-            <ul>
-              <li>The</li>
-            </ul>
-            <li>Keyboard</li>
-            <li>Touch (Mobile)</li>
-          </ul>
-          <h3>Calendar Mac App/Mobile App</h3>
-          <h3>Starbucks Web App/Mobile App</h3>
+          <table>
+            <thead>
+              <tr>
+                <td></td>
+                <td class="col"><b>EdStem Web App</b></td>
+                <td class="col"><b>Calendar Mac App/Mobile App</b></td>
+                <td class="col"><b>Starbucks Web App/Mobile App</b></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Colors</b></td>
+                <td>
+                  On the EdStem website on Mac, the button to open the filter
+                  dropdown menu turns blue on hover. This output sends the
+                  signal to the user that this 'Filter' text is actually a
+                  clickable button. On both Mac and mobible, when clicked, the
+                  button becomes a deeper blue, signalling to the user that they
+                  have successfully clicked the button and can now choose an
+                  option. Similarly, when hovering over each of the dropdown
+                  options, they turn blue, signalling to the user again that
+                  they can click one of these options. Finally, once they select
+                  a filter from the dropdown, the filter button stays a deep
+                  blue, even after being de-selected, to represent that the
+                  selected filter has been applied.
+                </td>
+                <td>
+                  When I hover over the calendar dropdown menu in Apple
+                  Calendar, the color of the dropdown button does not change.
+                  Once I select the dropdown menu, the button goes out of sight
+                  on both Mac and mobile. However, one way that this component
+                  does use color is that each calendar is assigned a color, and
+                  the button's color changes to the color of the calendar
+                  selected on both Mac and mobile. This color output can help
+                  efficiency, because common users know what color calendar they
+                  are looking for without needing to read the text in the
+                  dropdown menu.
+                </td>
+                <td>
+                  Hovering over the milk dropdown button on the Starbucks
+                  website on my Mac, the color of the dropdown button does not
+                  change. However, when I click on the dropdown menu button, on
+                  Mac and mobile, the button turns green. While visually
+                  appealing, I don't find this color output particularly useful,
+                  since when you click the button, the dropdown menu also
+                  appears, so you already know you've clicked the button. I
+                  would find this green color more useful if it appeared on
+                  hover, to signal that your mouse is in the right place to open
+                  the menu.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Text Label</b></td>
+                <td>
+                  The button to open the dropdown menu for filtering initially
+                  is labeled with the text 'Filter' and a downward arrow.
+                  However, after the user selects a filter from the dropdown,
+                  the text label changes from 'Filter' to the name of the filter
+                  applied, such as 'Unread', as in my screenshots. This is a
+                  valuable piece of output for the user, because it reinforces
+                  that they selected the filter that they meant to.
+                </td>
+                <td>
+                  On Mac, there is no text label on the calendar dropdown
+                  button, only the color of the calendar and the up and down
+                  arrows. On mobile, the button does have text, and it is the
+                  name of the calendar currently selected for the event. When
+                  the selected calendar changes, the button's text changes to
+                  reflect the new event selected. This text is a valuable piece
+                  of output, since it verifies to users that they selected the
+                  correct calendar.
+                </td>
+                <td>
+                  At the top of the dropdown menu button, in smaller font than
+                  the label in the middle of the button, is “Milk”, to signal to
+                  users that this dropdown selects their milk option. Before the
+                  user selects a milk, the default milk is 2%, so the button is
+                  initially labeled with “2% Milk”. When the user selects a
+                  different milk, the text label changes to display the name of
+                  the new milk. I find this output useful, but I disagree with
+                  having a default milk option. Instead, I think the selection
+                  should start as something like “Not Selected”, and the user
+                  shouldn't be able to buy the drink without selecting a milk.
+                  An error message output would prevent people from skipping
+                  over this dropdown and ending up with milk that they don't
+                  like or cannot drink.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Focus Order</b></td>
+                <td>
+                  Using the tab key, I can focus on different components along
+                  the top of the EdStem website. Once I reach the filter button,
+                  I can use the return key to open the dropdown menu. Once I
+                  have done so, then I have to use the up and down arrows to
+                  switch between options, and the tab key does nothing. I don't
+                  think needing to switch from the tab key to the arrow keys
+                  would make sense to someone unable to see the screen. I think
+                  there is no problem with the up and down keys working here,
+                  but I think the tab key should continue to work even when the
+                  dropdown menu is open.
+                </td>
+                <td>
+                  As described in the inputs section, I can tab between calendar
+                  events, and then use the return key to open editing for a
+                  specific event. However, when I use the tab key inside this
+                  editing window, the dropdown menu is never focused on. Not
+                  being able to focus on the dropdown menu of course impedes the
+                  users providing inputs, but it also blocks the outputs that
+                  users can get from this application. If they cannot focus on
+                  the dropdown menu, then visually impaired users may not know
+                  it exists.
+                </td>
+                <td>
+                  In the input section above, I explained that I could focus on
+                  this dropdown using the tab key, but when I pressed enter, I
+                  was unable to open the dropdown menu. This prevents an
+                  important output signal, which is that the user has selected
+                  the right component to open the dropdown menu. Since the
+                  return key does nothing, the user might be confused and think
+                  that they have focused on the wrong component in their effort
+                  to customize their milk selection. In reality, the application
+                  has just mismatched user needs.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Screen Reader</b></td>
+                <td>
+                  On my Mac, I used voice over to explore the different verbal
+                  descriptions from different states of the EdStem website. When
+                  I first navigate to the 'Filter'' button that opens the
+                  dropdown and focus on it, the text that VoiceOver reads out is
+                  "Filter, mean pop up collapsed, button, Thread list, region".
+                  This tells the user the name of the button, that the button
+                  brings up a menu that is currently collapsed, and that it is
+                  selectable. When I opened the dropdown menu, the text that
+                  VoiceOver read out was "menu, ..." followed by each of the
+                  dropdown options. However, as I used the up and down keys to
+                  move through options, VoiceOver did not read out their labels.
+                  It only read out these labels and called each a "menu item"
+                  when I hovered over the options with my mouse.
+                </td>
+                <td>
+                  Surprisingly, when I turned VoiceOver on, I was suddenly able
+                  to use the tab key to get to the calendar dropdown menu. I
+                  turned VoiceOver off again just to confirm that I still wasn't
+                  able to get there without it. I find it confusing that the tab
+                  key works differently when one screen reader, VoiceOver, is
+                  on. Not all visually impaired users may use VoiceOver as their
+                  screen reader, and they should still be able to use this
+                  button. Regardless, when I had the button focused with
+                  VoiceOver, it read “Calendar, popover, sarah_ridley@brown.edu,
+                  pop up button”, where “sarah_ridley@brown.edu” was the name of
+                  the current calendar selected. However, I don't think that
+                  “popover” is the clearest way to signal that this button opens
+                  a dropdown menu. Once the menu was open, it read out the names
+                  of each option, and then specified that each was a “menu
+                  item”. This makes sense to me, and I think it would be more
+                  useful as output if VoiceOver specified that the button opened
+                  this menu of items.
+                </td>
+                <td>
+                  Just as with Apple Calendar, turning on VoiceOver changed my
+                  keyboard interaction options. Now, when I focused on the milk
+                  dropdown button with VoiceOver on, it read “2% Milk, Milk,
+                  menu pop up collapsed, button”. Compared to the Apple Calendar
+                  VoiceOver output, I found the explanation that this was a
+                  collapsed pop up menu much clearer than just “popover”. Then,
+                  VoiceOver instructed me to press Control + Option + Space to
+                  open the menu. Since this allowed me to open the menu, I
+                  turned VoiceOver off, and tried this keystroke again with the
+                  button focused. This still did not work, so I still have not
+                  figured out how to open the dropdown menu with just my
+                  keyboard and without VoiceOver. While I think this poses an
+                  accessibility problem, I do feel that VoiceOver gave valuable
+                  outputs instructing me how to use the button and what it did,
+                  which is important for visually impaired users.
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <h2 id="redesign">III: State Models & Component Redesign</h2>
           <h2 id="reflection">IV: Reflection</h2>
           <h2 id="display">V: Display</h2>
