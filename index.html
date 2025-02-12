@@ -29,7 +29,7 @@
           <p class="name">Sarah Ridley ● Brown University ● February 2025</p>
           <p>
             In this case study, I examined one UI component and considered
-            alternative designs that could increase the component's
+            an alternative design that could increase the component's
             accesibility, potentially at the risk of learnability, memorability,
             or efficiency. The UI component I chose is the dropdown component. I
             explored the accessibility of this component across devices and
@@ -64,9 +64,9 @@
                   <li>
                     The top screenshots show EdStem's dropdown menu for
                     filtering discussion posts on the desktop website.
-                    When I hover over the filter button with my mouse, the button turns from gray to blue.
+                    When I hover over the "Filter" button with my mouse, the button turns from gray to blue.
                     Once I click on the button, the dropdown menu appears below
-                    the filter button. If I move my mouse away, the dropdown menu stays visible, but when I click
+                    the "Filter" button. If I move my mouse away, the dropdown menu stays visible, but when I click
                     anywhere other than the dropdown menu, it disappears.
                   </li>
                   <li>
@@ -90,8 +90,8 @@
                   </li>
                   <li>
                     Considering mouse interactions, one feature that
-                    stood out about EdStem's filter dropdown menu was
-                    that the dropdown button turns blue on hover, whereas neither
+                    stood out about EdStem's dropdown menu was
+                    that the button turns blue on hover, whereas neither
                     Apple Calendar or Starbucks components change color on hover. This
                     makes it easier for a mouse user to see that they
                     are in range to click the dropdown menu button they want to press, in case
@@ -330,7 +330,7 @@
                 a customizable Mac system setting. If I click one of the options
                 in the dropdown menu, the menu disappears and updates the
                 selected milk. This menu appears to use
-                Apple's built-in dropdown, so naturally it functions very similarly
+                Apple's built-in dropdown, so naturally it functions similarly
                 to the Apple Calendar dropdowns.
               </li>
               <li>
@@ -408,7 +408,7 @@
                 applications, I cannot highlight the text in the dropdown.
               </li>
               <li>
-                I appreciate that the Starbucks website and mobile app have very similar
+                I appreciate that the Starbucks website and mobile app have similar
                 dropdown designs. This makes the platforms more efficient for users
                 who switch between the website and the mobile app. This
                 also makes one more learnable for those who have already used
@@ -432,7 +432,7 @@
             After exploring inputs, I also explored outputs from the dropdown
             menus on these three applications. The inputs can change the state
             of a dropdown component, and the output reflects these state changes
-            to the user. So, I explored outputs including colors, text label,
+            to the user. I explored outputs including colors, text label,
             focus order, and screen reader output.
           </p>
           <table>
@@ -448,24 +448,18 @@
               <tr>
                 <th><b>Colors</b></th>
                 <td>
-                  On the EdStem website on Mac, the button to open the filter
-                  dropdown menu turns blue on hover. This output sends the
-                  signal to the user that this 'Filter' text is actually a
-                  clickable button. On both Mac and mobible, when clicked, the
-                  button becomes a deeper blue, signalling to the user that they
-                  have successfully clicked the button and can now choose an
-                  option. Similarly, when hovering over each of the dropdown
-                  options, they turn blue, signalling to the user again that
-                  they can click one of these options. Finally, once they select
-                  a filter from the dropdown, the filter button stays a deep
-                  blue, even after being de-selected, to represent that the
-                  selected filter has been applied.
+                  On the EdStem website on Mac, the filter dropdown 
+                  button turns blue on hover. This output signals
+                  to the user that this "Filter" text is
+                  clickable. Once the dropdown menu is open, when hovering over an
+                  option, it turns blue, signalling that it can be
+                  selected. Finally, once a filter is selected
+                  and the menu closes, the dropdown button remains deep
+                  blue to signal that the selected filter has been applied.
                 </td>
                 <td>
-                  When I hover over the calendar dropdown menu in Apple
-                  Calendar, the color of the dropdown button does not change.
-                  Once I select the dropdown menu, the button goes out of sight
-                  on both Mac and mobile. However, one way that this component
+                  When I hover over the calendar dropdown button in Apple
+                  Calendar, the color does not change. One way that this component
                   does use color is that each calendar is assigned a color, and
                   the button's color changes to the color of the calendar
                   selected on both Mac and mobile. This color output can help
@@ -474,11 +468,11 @@
                   dropdown menu.
                 </td>
                 <td>
-                  Hovering over the milk dropdown button on the Starbucks
-                  website on my Mac, the color of the dropdown button does not
-                  change. However, when I click on the dropdown menu button, on
-                  Mac and mobile, the button turns green. While visually
-                  appealing, I don't find this color output particularly useful,
+                  Hovering over the "Milk" dropdown button on the Starbucks
+                  website on Mac, the color of the dropdown button does not
+                  change. When I click the button on
+                  Mac and mobile, the button turns green. I don't find 
+                  this color output useful,
                   since when you click the button, the dropdown menu also
                   appears, so you already know you've clicked the button. I
                   would find this green color more useful if it appeared on
@@ -489,11 +483,11 @@
               <tr>
                 <th><b>Text Label</b></th>
                 <td>
-                  The button to open the dropdown menu for filtering initially
-                  is labeled with the text 'Filter' and a downward arrow.
+                  The button to open this dropdown menu is initially
+                  labeled with the text "Filter" and a downward arrow.
                   However, after the user selects a filter from the dropdown,
-                  the text label changes from 'Filter' to the name of the filter
-                  applied, such as 'Unread', as in my screenshots. This is a
+                  the text label changes from "Filter" to the name of the filter
+                  applied, such as "Unread", as in my screenshots. This is a
                   valuable piece of output for the user, because it reinforces
                   that they selected the filter that they meant to.
                 </td>
@@ -501,124 +495,100 @@
                   On Mac, there is no text label on the calendar dropdown
                   button, only the color of the calendar and the up and down
                   arrows. On mobile, the button does have text, and it is the
-                  name of the calendar currently selected for the event. When
-                  the selected calendar changes, the button's text changes to
-                  reflect the new event selected. This text is a valuable piece
-                  of output, since it verifies to users that they selected the
+                  name of the calendar currently selected for the event. Then, on mobile, when
+                  the selected calendar changes, the button's text updates to
+                  reflect the new calendar selected. This text output
+                  verifies to users that they selected the
                   correct calendar.
                 </td>
                 <td>
-                  At the top of the dropdown menu button, in smaller font than
-                  the label in the middle of the button, is “Milk”, to signal to
-                  users that this dropdown selects their milk option. Before the
-                  user selects a milk, the default milk is 2%, so the button is
-                  initially labeled with “2% Milk”. When the user selects a
-                  different milk, the text label changes to display the name of
-                  the new milk. I find this output useful, but I disagree with
-                  having a default milk option. Instead, I think the selection
-                  should start as something like “Not Selected”, and the user
+                  The dropdown button is labeled above it with “Milk”, to signal
+                  that this dropdown selects a milk option, and 
+                  the name of the current milk. The default is 2% milk, but if the user selects a
+                  different milk, the text label updates. 
+                  Instead of having a default, I think the selection
+                  should start as “Not Selected”, and the user
                   shouldn't be able to buy the drink without selecting a milk.
-                  An error message output would prevent people from skipping
-                  over this dropdown and ending up with milk that they don't
-                  like or cannot drink.
+                  An error output would prevent users from skipping
+                  over this dropdown and accidentally ordering the wrong milk.
                 </td>
               </tr>
               <tr>
                 <th><b>Focus Order</b></th>
                 <td>
-                  Using the tab key, I can focus on different components along
-                  the top of the EdStem website. Once I reach the filter button,
-                  I can use the return key to open the dropdown menu. Once I
-                  have done so, then I have to use the up and down arrows to
-                  switch between options, and the tab key does nothing. I don't
-                  think needing to switch from the tab key to the arrow keys
-                  would make sense to someone unable to see the screen. I think
-                  there is no problem with the up and down keys working here,
-                  but I think the tab key should continue to work even when the
-                  dropdown menu is open.
+                  Using the tab key, I can focus on the filter dropdown button,
+                  and then use the return key to open the menu. Then,
+                  I have to use the up and down keys to
+                  switch between options, and the tab key does nothing. I think
+                  that needing to switch from the tab key to the arrow keys
+                  impedes learnability and accessibility for someone who 
+                  cannot see the screen. In addition to the up and down keys, 
+                  I think the tab key should also work
+                  to switch between these options.
                 </td>
                 <td>
                   As described in the inputs section, I can tab between calendar
-                  events, and then use the return key to open editing for a
+                  events, and use the return key to open a
                   specific event. However, when I use the tab key inside this
-                  editing window, the dropdown menu is never focused on. Not
-                  being able to focus on the dropdown menu of course impedes the
-                  users providing inputs, but it also blocks the outputs that
-                  users can get from this application. If they cannot focus on
-                  the dropdown menu, then visually impaired users may not know
-                  it exists.
+                  window, the dropdown menu is never focused on. This sends 
+                  confusing outputs/signals back to the user. If they cannot focus on
+                  the dropdown menu, the application is signalling that it 
+                  is disabled or not clickable, even though it is, and holds important functionality.
                 </td>
                 <td>
-                  In the input section above, I explained that I could focus on
-                  this dropdown using the tab key, but when I pressed enter, I
-                  was unable to open the dropdown menu. This prevents an
+                  In the input section above, I found that I could focus on
+                  Starbucks' dropdown using the tab key, but could not use 
+                  the keyboard to open the dropdown menu. This prevents an
                   important output signal, which is that the user has selected
                   the right component to open the dropdown menu. Since the
                   return key does nothing, the user might be confused and think
                   that they have focused on the wrong component in their effort
-                  to customize their milk selection. In reality, the application
-                  has just mismatched user needs.
+                  to customize their milk selection.
                 </td>
               </tr>
               <tr>
                 <th><b>Screen Reader</b></th>
                 <td>
-                  On my Mac, I used voice over to explore the different verbal
-                  descriptions from different states of the EdStem website. When
-                  I first navigate to the 'Filter'' button that opens the
-                  dropdown and focus on it, the text that VoiceOver reads out is
-                  "Filter, mean pop up collapsed, button, Thread list, region".
-                  This tells the user the name of the button, that the button
+                  On my Mac, I turned on VoiceOver and focused on the
+                  "Filter" dropdown button. VoiceOver reads out
+                  "Filter, menu pop up collapsed, button, Thread list, region", which
+                  tells the user the name of the button, that the button
                   brings up a menu that is currently collapsed, and that it is
-                  selectable. When I opened the dropdown menu, the text that
-                  VoiceOver read out was "menu, ..." followed by each of the
+                  selectable. When I opened the dropdown menu,
+                  VoiceOver read out "menu, ..." followed by each of the
                   dropdown options. However, as I used the up and down keys to
-                  move through options, VoiceOver did not read out their labels.
-                  It only read out these labels and called each a "menu item"
-                  when I hovered over the options with my mouse.
+                  move through options, VoiceOver did not read out their labels, 
+                  it only did so when I hovered with my mouse.
                 </td>
                 <td>
-                  Surprisingly, when I turned VoiceOver on, I was suddenly able
-                  to use the tab key to get to the calendar dropdown menu. I
-                  turned VoiceOver off again just to confirm that I still wasn't
-                  able to get there without it. I find it confusing that the tab
-                  key works differently when one screen reader, VoiceOver, is
-                  on. Not all visually impaired users may use VoiceOver as their
-                  screen reader, and they should still be able to use this
-                  button. Regardless, when I had the button focused with
-                  VoiceOver, it read “Calendar, popover, sarah_ridley@brown.edu,
-                  pop up button”, where “sarah_ridley@brown.edu” was the name of
+                  Surprisingly, when I turned VoiceOver on, I was able
+                  to use the tab key to focus on the calendar dropdown button. I
+                  turned VoiceOver off again and confirmed that I couldn't without it. 
+                  This impedes acccessibility, because not all impaired users use 
+                  VoiceOver, or a screen reader at all, and they should still be able to use this
+                  dropdown. When I had the button focused with
+                  VoiceOver, it read “Calendar, popover, sarah_ridley@brown.edu”, where “sarah_ridley@brown.edu” was the name of
                   the current calendar selected. However, I don't think that
                   “popover” is the clearest way to signal that this button opens
-                  a dropdown menu. Once the menu was open, it read out the names
-                  of each option, and then specified that each was a “menu
-                  item”. This makes sense to me, and I think it would be more
-                  useful as output if VoiceOver specified that the button opened
-                  this menu of items.
+                  a dropdown menu.
                 </td>
                 <td>
-                  Just as with Apple Calendar, turning on VoiceOver changed my
-                  keyboard interaction options. Now, when I focused on the milk
+                  When I focused on the "Milk"
                   dropdown button with VoiceOver on, it read “2% Milk, Milk,
-                  menu pop up collapsed, button”. Compared to the Apple Calendar
-                  VoiceOver output, I found the explanation that this was a
-                  collapsed pop up menu much clearer than just “popover”. Then,
+                  menu pop up collapsed, button”. Compared to Apple Calendar
+                  VoiceOver output, Starbucks' explanation that this was a
+                  collapsed pop up menu is clearer than Apple Calendars' use of “popover”. Then,
                   VoiceOver instructed me to press Control + Option + Space to
-                  open the menu. Since this allowed me to open the menu, I
-                  turned VoiceOver off, and tried this keystroke again with the
-                  button focused. This still did not work, so I still have not
-                  figured out how to open the dropdown menu with just my
-                  keyboard and without VoiceOver. While I think this poses an
-                  accessibility problem, I do feel that VoiceOver gave valuable
-                  outputs instructing me how to use the button and what it did,
-                  which is important for visually impaired users.
+                  open the dropdown. I tried this keystroke again with VoiceOver
+                  off, which did not work. Like Apple Calendars, Starbucks has created an
+                  accessibility problem by mismatching the needs of those that do not use VoiceOver.
                 </td>
               </tr>
             </tbody>
           </table>
           <h2 id="redesign">III: State Models & Component Redesign</h2>
           <p>
-            After exploring input and output from EdStem, Apple Calendar, and
+            After exploring input and output from dropdowns on EdStem, Apple Calendar, and
             Starbucks, I had several ideas about how to improve the dropdown
             components found in all three applications. However, this case study
             will focus on my redesign of the calendar dropdown menu in Apple
@@ -626,13 +596,13 @@
           </p>
           <p>
             Before beginning my redesign, I created state models to display the
-            current interactions possible with Apple Calendar's calendar
+            current interactions with Apple Calendar's calendar
             dropdown menu. State models show both the available states of the
             component, as well as the actions that transition between states.
-            Below, the two state models displaying pre-revision interactions
-            with the touchpad and with the keyboard respectively. Note that I
-            often refer to pink highlights or borders, this is a Mac system
-            setting that users customize.
+            Below, the two state models display pre-revision interactions
+            with the touchpad and the keyboard respectively. Note that I
+            often refer to pink highlights or borders, which is a Mac system
+            setting that users customize, so these components are not pink for all users.
           </p>
           <h3>Initial Calendar Dropdown Menu Component: Mouse User</h3>
           <div class="image-box">
@@ -657,14 +627,14 @@
               <p class="right-pad">
                 As described in the input and output sections, without
                 VoiceOver, I was unable to focus on the dropdown menu button
-                with only my keyboard on my Mac. Therefore, this state model is
-                missing a transition from inactive to focus, although it should
+                with only my keyboard on Mac. So, this state model is
+                missing a transition from inactive to focused, although it should
                 be noted that the button can be tabbed into focus when VoiceOver
                 is active.
               </p>
               <p>
-                Once the calendar dropdown menu button is focused, then I am
-                able to use the return key, up and down arrows, and escape key
+                Once the calendar dropdown menu button is focused, then users
+                can press the return key, up and down arrows, and escape key
                 to transition between states, as shown.
               </p>
             </div>
@@ -675,11 +645,12 @@
             />
           </div>
           <p class="top-pad">
-            To follow these initial state models, below I present two new state
+            As noted above, there are several areas of improvement for these state models.
+            Below, I present two new state
             models for my revised calendar dropdown menu component, with mouse
             and with keyboard. The main design change I made includes adding a
-            "Confirm" button to the dropdown meu. This choice will be further
-            explored and justified in the Figma models presented below.
+            "Confirm" button to the dropdown menu. I will
+            explore and justify this choice alongside the Figma models further below.
           </p>
           <h3>Revised Calendar Dropdown Menu Component: Mouse User</h3>
           <div class="image-box">
@@ -690,7 +661,7 @@
             />
             <p class="left-pad">
               As mentioned, the main revision I made was introducing a "Confirm"
-              button on the dropdown menu. So, after a user clicks one of the
+              button on the dropdown menu. Now, after a user clicks one of the
               dropdown options, they also need to click the "Confirm" button to
               actually select their chosen option and close the dropdown menu.
               If they do not select "Confirm" after clicking an option, and
@@ -701,15 +672,15 @@
           <div class="image-box">
             <div class="right-pad">
               <p>
-                Most importantly, I added a transition from disabled to focused
+                For keyboard interaction, I added a transition from disabled to focused
                 with the tab key, which the initial state model lacked.
               </p>
               <p>
-                Similar to the revised mouse version, the main change to this
-                state model is introducing a "Confirm" button. Once the user has
+                As in the revised mouse model, this revised keyboard model also 
+                introduces a "Confirm" button. Once the user has
                 focused on an option with the up and down keys, when they press
-                return, now their focused option is selected. This also
-                automatically focuses on the "Confirm" button. Now, the user
+                return, their focused option is selected. This also
+                automatically focuses the "Confirm" button. So, the user
                 needs to press the return key again to activate the "Confirm"
                 button and submit their selection.
               </p>
@@ -728,10 +699,12 @@
             src="https://embed.figma.com/design/RAMYPpAGtqDIV2M9AyG27T/Accessible-Components?node-id=0-1&embed-host=share"
             allowfullscreen
           ></iframe>
+          <p>If the embedded Figma model does not load, please find it <a target="_blank" href="https://www.figma.com/file/RAMYPpAGtqDIV2M9AyG27T?type=design&node-id=0%3A1&mode=design">here</a>.</p>
           <p>
-            The above Figma model is my redesign of the dropdown menu to assign
-            an event to a particular calendar in Apple Calendar. This is the
-            button with the blue square and the up/down arrows on the calendar
+            This Figma model is my redesign of the calendar dropdown menu in 
+            Apple Calendar, which allows users to assign
+            an event to a particular calendar. In the model above, this dropdown is 
+            opened with the button with the blue square and the up/down arrows, located in the
             event editing window. The model contains three frames, described
             below:
           </p>
@@ -740,67 +713,69 @@
               <li>
                 The first Figma frame displays the initial state of my revised
                 calendar dropdown menu. This is the state before the user has
-                interacted with the dropdown, so the button is visible but the
-                dropdown menu window has not appeared.
+                interacted with the dropdown, so the dropdown button is visible but the
+                dropdown menu window has not been opened.
               </li>
             </ul>
             <ul class="col-box-item">
               <li>
-                When the user opens the dropdown menu and hovers over or focuses
-                on one of the options, they will see the second frame. So, the
+                When the user opens the dropdown menu and hovers over (or focuses
+                on) an option, they will see the second frame. Here, the
                 dropdown menu is open and one of the options is highlighted.
-                However, the user has not clicked on their selection yet. After
-                clicking on their selection, they will still need to confirm it
-                with the "Confirm" button, discussed in the revised state
-                models.
+                However, the user has not clicked on (or pressed the return key
+                while focusing on) their selection yet.
               </li>
             </ul>
             <ul class="col-box-item">
               <li>
-                This is a third, bonus state that I believe is important to
+                This is a bonus state that is important to
                 understanding my redesign. After the user clicks on (or presses
-                return on) an option, that option is not yet submitted. Instead,
-                the user still must press the Confirm button in the dropdown
-                menu to submit their selection and close the dropdown menu.
+                return on) an option, that option turns dark gray, but is not yet submitted. Instead, as shown,
+                the user still must press the "Confirm" button, which has automatically 
+                been focused on, to submit their selection and close the dropdown menu.
               </li>
             </ul>
           </div>
           <p>
-            My revised component increases accessibility at the expense of
-            efficiency. Adding a "Confirm" button means that frequent users have
-            one more click or key to press before they can submit their
-            selection from the dropdown menu. However, this increases
-            accessibility beacuse it means that users with fine motor control
-            issues will cannot accidentally submit their selection with one
-            click of the mouse or key press. Adding an extra confirmation
-            transition means that these users can accidentally select an option,
-            but change their selection without the window closing (which is the
-            currenet behavior of the component when any option is clicked).
+            While not shown in the Figma models, the first way that my redesign increases accessibility is by 
+            ensuring that users can focus on the dropdown button without
+            VoiceOver. This interaction was 
+            surprisingly missing in Apple Calendar's current dropdown window.
+            The only way that this decreases efficiency is by adding one more
+            component that keyboard users need to tab through as they explore
+            the event editing window. However, this is an insignficant loss
+            in efficiency that significantly increases accessibility.
           </p>
           <p>
-            This change also improves learnability and memorability in the sense
-            that it lets users know that the things that have popped up on
-            screen are all options to click, as implied by the "Confirm" button.
-            They can play around with clicking these options without the window
+            However, in other ways, my revised component does increase accessibility at the expense of
+            efficiency. Adding a "Confirm" button means that frequent users have
+            one more click or key to press before they can submit their
+            dropdown selection. However, this increases
+            accessibility beacuse it means that users with impaired motor control
+            are less likely to accidentally submit their selection. 
+            This is because the extra confirmation
+            transition allows users to accidentally select an option,
+            but change their selection without the window closing (which is the
+            current behavior of the component when any option is clicked).
+          </p>
+          <p>
+            This change also improves learnability and memorability, because
+            the "Confirm" button at the bottom of the dropdown signals to users
+            that the things that have popped up on
+            screen are all options to click and submit.
+            They can also play around with clicking these options without the window
             closing every time, and these lower stakes help users get
             comfortable with the component faster.
           </p>
-          <p>
-            In other ways, my redesign increases accessibility, without risking
-            other properties. For example, since I found that I could not focus
-            on the calendar dropdown menu outside of VoiceOver, in my redesign,
-            I specified that the tab key could be used to focus on the button.
-            This does not reduce learnability, memorability, nor efficiency, it
-            only increases accessibility.
-          </p>
           <h2 id="reflection">IV: Reflection</h2>
           <p>
-            When exploring the usability of the dropdown menus in EdStem, Apple
-            Calendar, and Starbucks, all three applications had interesting uses
-            of colors to reflect state back to the user. This guided me to use
-            colors that send signals to users about the state of the component
-            in my redesign, specifically designing how the hovered option is
-            highlighted in different colors than the selected option.
+            Exploring the usability of the dropdown menus in EdStem, Apple
+            Calendar, and Starbucks led to many interesting observations, like how 
+            all three applications used colors in slightly different ways
+            to reflect state back to the user. This guided me to use
+            colors to represent the state of my redesigned component,
+            specifically when designing how the hovered option is
+            highlighted in a different color than the selected option.
           </p>
           <p>
             Comparing the accessibility of these three applications, the most
@@ -808,8 +783,8 @@
             only one that I could fully navigate with the keyboard without
             turning on VoiceOver. So, keyboard navigability was an acessibility
             consideration missing from Apple Calendar and Starbucks, and in my
-            revised Apple Calendar dropdown state model, I specified that the
-            dropdown could be opened with the keyboard.
+            revised Apple Calendar dropdown state model, I specified how the
+            redesigned dropdown could be focused on and opened with the keyboard.
           </p>
           <p>
             When thinking about making components more accessible, it's useful
@@ -827,15 +802,15 @@
             Calendar and Starbucks dropdowns negatively impacting those with
             visual impairments, since focusing on the dropdown was impossible
             without VoiceOver, which not all impaired users might use. On the
-            other hand, ARIA text read by VoiceOver is very beneficial to those
-            with visual impairments, and I found that of the three applications,
+            other hand, the ARIA text read by VoiceOver is a feature that is beneficial to those
+            with visual impairments, and across the three applications,
             Starbucks' components had the most clear and descriptive ARIA text.
           </p>
           <p>
-            Thinking more generally, it seems that the mouse is the most often
-            prioritized when designing components, as many designers are fully
-            abled, but this means that they may forget to consider and design
-            for the experiences of those who are impaired.
+            Thinking more generally, it seems that the mouse is most often
+            prioritized when designing components, as many designers are
+            fully-abled, but this means that they may forget to consider
+            the needs of those whose abilities are impaired.
           </p>
           <h2 id="display">V: Display</h2>
           <p>Thank you for exploring this case study!</p>
