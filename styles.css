@@ -112,7 +112,8 @@ table {
 }
 
 .col {
-  width: 32%;
+  width: 31%;
+  height: 50px;
 }
 
 .image-box {
@@ -130,4 +131,8 @@ table {
 
 .col-box-item {
   width: 32%;
+}
+
+th {
+  background-color: #e6dbdb;
 }
