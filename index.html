@@ -53,138 +53,158 @@
           <img
             src="public/edstem-screenshots.svg"
             alt="Compiled screenshots of my interactions with the filter dropdown menu on EdStem"
+            class="pad"
           />
-          <ul>
-            <li><b>Mouse/Touchpad</b></li>
-            <ul>
-              <li>
-                The top screenshots show EdStem's 'filter' dropdown menu for
-                filtering EdStem posts on the desktop web application.
-                Interacting with this component with my mouse, when I hover over
-                the filter button, the button turns from gray to blue. Once I
-                click on the button, the dropdown menu appears below the filter
-                button. No matter where I move my mouse on the screen, the
-                dropdown menu stays visible. When I click anywhere other than
-                the dropdown menu, the menu disappears.
-              </li>
-              <li>
-                If instead I hover over the options while the dropdown menu is
-                visible, each individual option turns blue on hover. Then, if I
-                click on one of the options in the dropdown menu, the menu also
-                disappears, but also changes the selected filter. However, with
-                my mouse, I cannot select the text in any of the options in the
-                dropdown menu. So, I cannot copy and paste this text elsewhere.
-              </li>
-              <li>
-                One element of using the dropdown with my mouse that is
-                learnable is that the dropdown menu has a small down arrow on
-                it. This is learnable because if I was using this UI for the
-                first time, the down arrow is a good affordance for me to
-                realize that I should try clicking on it, and something (the
-                dropdown options) will appear below. Something efficient is the
-                order that the dropdown options appear in, since this order
-                never changes, so users can get a muscle-memory about how far to
-                move their mouse in case they frequently need to filter for only
-                'unread' messages.
-              </li>
-              <li>
-                Specifically considering mouse/touchpad interactions, the
-                accessibility of EdStem's dropdown menu is pretty comparable to
-                that of Apple Calendar and Starbucks. One feature that stood out
-                about EdStem's filter button using the mouse was that the filter
-                button turns blue on hover, whereas neither Apple Calendar or
-                Starbucks change color on hover. This makes it easier for
-                someone using the mouse to see that they are in range to click
-                the button they want to press, in case they are trying to use
-                filter but have some difficulties discerning which components
-                are buttons.
-              </li>
-            </ul>
-            <li><b>Keyboard</b></li>
-            <ul>
-              <li>
-                To use the dropdown menu with the keyboard only, I had to press
-                the tab button many times until the filter button was selected.
-                Once this button was selected, then I had to press the return
-                key, which opened the dropdown menu. Then, I could use the up
-                and down arrows to change which option was highlighted. Then,
-                when I pressed return, the highlighted option was inputted.
-              </li>
-              <li>
-                One thing I can't do with my keyboard is select the text in the
-                dropdown menu (which I also couldn't do with my keyboard). I
-                tried to use the Command + A shortcut to select the text, but it
-                selected all the other text on the page except the text in the
-                dropdown menu. One thing that I could do with my keyboard was
-                close the dropdown menu without selecting anything by using the
-                escape key.
-              </li>
-              <li>
-                Something memorable about this component is that its pretty
-                intuitive that you can use the up and down arrows to navigate
-                once you've hit return on the filter button. While I think this
-                is memorable, I don't think its very learnable. You use the tab
-                key to select the filter button, but then have to use the up and
-                down keys once you're in the dropdown. To me, it would me easier
-                to pick up if you always used the tab key to switch to highlight
-                different things, and the return key to make your ultimate
-                selection.
-              </li>
-              <li>
-                Compared to Apple Calendar and Starbucks, I found that EdStem
-                did better in terms of accessibility. As described below, both
-                Apple Calendar and Starbucks were more confusing and difficult
-                to use simply with my keyboard, which is often how people with
-                physical disabilities interact with websites, instead of with
-                the mouse/touchpad.
-              </li>
-            </ul>
-            <li><b>Touch (Mobile)</b></li>
-            <ul>
-              <li>
-                The bottom screenshots above show my interactions with the
-                filter dropdown menu on the EdStem website from a mobile device.
-                On my phone, the dropdown menu comes up from the bottom of my
-                screen, and covers the rest of the screen. From there, you can
-                click on of the filters, which closes the dropdown, or click
-                Cancel, which closes the dropdown without filtering.
-              </li>
-              <li>
-                Similarly to the mouse and keyboard, I cannot highlight the text
-                in the dropdown on my phone. When I try to press and hold on the
-                text, nothing happens, and when I release, the dropdown menu
-                select whichever filter whose text I was trying to highlight.
-                One thing this component can do is scroll. Specifically, if
-                there are too many filter options to fit the screen height, I
-                can scroll to see more options below.
-              </li>
-              <li>
-                One thing that is efficient about this dropdown is that someone
-                only needs to quick taps to select the filter they want, and
-                they can memorize the positions of these clicks if they use
-                filter posts on EdStem frequently. One thing that's not very
-                learnable about this dropdown menu is that when the dropdown is
-                opened, it fills the entire screen. This means that someone who
-                accidentally hits the filter button that opens the dropdown will
-                have no idea what button they accidentally pressed when first
-                using the app.
-              </li>
-              <li>
-                However, this makes the EdStem mobile dropdown more accessible
-                in some ways than the Apple Calendar or Starbucks. Filling the
-                entire screen does make each option bigger, which is more
-                accessible to people who struggle with fine motor controls.
-              </li>
-            </ul>
-          </ul>
+          <table>
+            <tr>
+              <th style="width:11%"><b>Mouse/ Touchpad</b></th>
+              <td>
+                <ul>
+                  <li>
+                    The top screenshots show EdStem's 'filter' dropdown menu for
+                    filtering EdStem posts on the desktop web application.
+                    Interacting with this component with my mouse, when I hover
+                    over the filter button, the button turns from gray to blue.
+                    Once I click on the button, the dropdown menu appears below
+                    the filter button. No matter where I move my mouse on the
+                    screen, the dropdown menu stays visible. When I click
+                    anywhere other than the dropdown menu, the menu disappears.
+                  </li>
+                  <li>
+                    If instead I hover over the options while the dropdown menu
+                    is visible, each individual option turns blue on hover.
+                    Then, if I click on one of the options in the dropdown menu,
+                    the menu also disappears, but also changes the selected
+                    filter. However, with my mouse, I cannot select the text in
+                    any of the options in the dropdown menu. So, I cannot copy
+                    and paste this text elsewhere.
+                  </li>
+                  <li>
+                    One element of using the dropdown with my mouse that is
+                    learnable is that the dropdown menu has a small down arrow
+                    on it. This is learnable because if I was using this UI for
+                    the first time, the down arrow is a good affordance for me
+                    to realize that I should try clicking on it, and something
+                    (the dropdown options) will appear below. Something
+                    efficient is the order that the dropdown options appear in,
+                    since this order never changes, so users can get a
+                    muscle-memory about how far to move their mouse in case they
+                    frequently need to filter for only 'unread' messages.
+                  </li>
+                  <li>
+                    Specifically considering mouse/touchpad interactions, the
+                    accessibility of EdStem's dropdown menu is pretty comparable
+                    to that of Apple Calendar and Starbucks. One feature that
+                    stood out about EdStem's filter button using the mouse was
+                    that the filter button turns blue on hover, whereas neither
+                    Apple Calendar or Starbucks change color on hover. This
+                    makes it easier for someone using the mouse to see that they
+                    are in range to click the button they want to press, in case
+                    they are trying to use filter but have some difficulties
+                    discerning which components are buttons.
+                  </li>
+                </ul>
+              </td>
+            </td>
+            <tr>
+              <th><b>Keyboard</b></th>
+              <td>
+                <ul>
+                  <li>
+                    To use the dropdown menu with the keyboard only, I had to
+                    press the tab button many times until the filter button was
+                    selected. Once this button was selected, then I had to press
+                    the return key, which opened the dropdown menu. Then, I
+                    could use the up and down arrows to change which option was
+                    highlighted. Then, when I pressed return, the highlighted
+                    option was inputted.
+                  </li>
+                  <li>
+                    One thing I can't do with my keyboard is select the text in
+                    the dropdown menu (which I also couldn't do with my
+                    keyboard). I tried to use the Command + A shortcut to select
+                    the text, but it selected all the other text on the page
+                    except the text in the dropdown menu. One thing that I could
+                    do with my keyboard was close the dropdown menu without
+                    selecting anything by using the escape key.
+                  </li>
+                  <li>
+                    Something memorable about this component is that its pretty
+                    intuitive that you can use the up and down arrows to
+                    navigate once you've hit return on the filter button. While
+                    I think this is memorable, I don't think its very learnable.
+                    You use the tab key to select the filter button, but then
+                    have to use the up and down keys once you're in the
+                    dropdown. To me, it would me easier to pick up if you always
+                    used the tab key to switch to highlight different things,
+                    and the return key to make your ultimate selection.
+                  </li>
+                  <li>
+                    Compared to Apple Calendar and Starbucks, I found that
+                    EdStem did better in terms of accessibility. As described
+                    below, both Apple Calendar and Starbucks were more confusing
+                    and difficult to use simply with my keyboard, which is often
+                    how people with physical disabilities interact with
+                    websites, instead of with the mouse/touchpad.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th><b>Touch (Mobile)</b></th>
+              <td>
+                <ul>
+                  <li>
+                    The bottom screenshots above show my interactions with the
+                    filter dropdown menu on the EdStem website from a mobile
+                    device. On my phone, the dropdown menu comes up from the
+                    bottom of my screen, and covers the rest of the screen. From
+                    there, you can click on of the filters, which closes the
+                    dropdown, or click Cancel, which closes the dropdown without
+                    filtering.
+                  </li>
+                  <li>
+                    Similarly to the mouse and keyboard, I cannot highlight the
+                    text in the dropdown on my phone. When I try to press and
+                    hold on the text, nothing happens, and when I release, the
+                    dropdown menu select whichever filter whose text I was
+                    trying to highlight. One thing this component can do is
+                    scroll. Specifically, if there are too many filter options
+                    to fit the screen height, I can scroll to see more options
+                    below.
+                  </li>
+                  <li>
+                    One thing that is efficient about this dropdown is that
+                    someone only needs to quick taps to select the filter they
+                    want, and they can memorize the positions of these clicks if
+                    they use filter posts on EdStem frequently. One thing that's
+                    not very learnable about this dropdown menu is that when the
+                    dropdown is opened, it fills the entire screen. This means
+                    that someone who accidentally hits the filter button that
+                    opens the dropdown will have no idea what button they
+                    accidentally pressed when first using the app.
+                  </li>
+                  <li>
+                    However, this makes the EdStem mobile dropdown more
+                    accessible in some ways than the Apple Calendar or
+                    Starbucks. Filling the entire screen does make each option
+                    bigger, which is more accessible to people who struggle with
+                    fine motor controls.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
           <h3>Calendar Mac App/Mobile App</h3>
           <img
             src="public/calendar-screenshots.svg"
             alt="Compiled screenshots of my interactions with the calendar dropdown menu on Apple Calendar"
-          />
-          <ul>
-            <li><b>Mouse/Touchpad</b></li>
-            <ul>
+            class="pad"
+            />
+          <table>
+            <tr>
+                <th style="width:11%">Mouse/ Touchpad</th>
+                <td><ul>
               <li>
                 The left screenshots show Apple Calendar's dropdown menu for
                 choosing a calendar to assign an event on the desktop web
@@ -229,9 +249,11 @@
                 changes to white to ensure contrast for those with visual
                 impairments.
               </li>
-            </ul>
-            <li><b>Keyboard</b></li>
-            <ul>
+            </ul></td>
+            </tr>
+            <tr>
+                <th>Keyboard</th>
+                <td><ul>
               <li>
                 Using only the keyboard to navigate this dropdown menu on Apple
                 Calendar was pretty difficult (if not impossible). I could use
@@ -268,9 +290,11 @@
                 impairments therefore likely struggle to change the calendar
                 that their events are assigned to.
               </li>
-            </ul>
-            <li><b>Touch (Mobile)</b></li>
-            <ul>
+            </ul></td>
+            </tr>
+            <tr>
+                <th>Touch (Mobile)</th>
+                <td><ul>
               <li>
                 The right screenshots above show my interactions with the
                 calendar dropdown menu on the Apple Calendar app from a mobile
@@ -308,16 +332,20 @@
                 dropdown more accessible since it is easier to close. So, it
                 really depends on the user's goals.
               </li>
-            </ul>
-          </ul>
+            </ul></td>
+            </tr>
+          </table>
           <h3>Starbucks Web App/Mobile App</h3>
           <img
             src="public/starbucks-screenshots.svg"
             alt="Compiled screenshots of my interactions with the milk dropdown menu on Starbuck"
+            class="pad"
           />
-          <ul>
-            <li><b>Mouse/Touchpad</b></li>
-            <ul>
+          <table>
+            <tr>
+              <th style="width:11%">Mouse/ Touchpad</th>
+              <td>
+                <ul>
               <li>
                 The left screenshots show my interactions with Starbucks' web
                 application, specifically with the dropdown for choosing a milk
@@ -364,8 +392,11 @@
                 impairments.
               </li>
             </ul>
-            <li><b>Keyboard</b></li>
-            <ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Keyboard</th>
+              <td><ul>
               <li>
                 Disappointingly, I struggled to use my keyboard to navigate this
                 component on the Starbucks website. I was able to use the tab
@@ -398,9 +429,11 @@
                 mismatch that prevent many users from being able to participate
                 in these products.
               </li>
-            </ul>
-            <li><b>Touch (Mobile)</b></li>
-            <ul>
+            </ul></td>
+            </tr>
+            <tr>
+              <th>Touch (Mobile)</th>
+              <td><ul>
               <li>
                 The right screenshots above show my interactions with the
                 calendar dropdown menu on the Starbucks app from a mobile
@@ -436,8 +469,9 @@
                 require the same input limits accessibility, particularly for
                 users with poor motor control.
               </li>
-            </ul>
-          </ul>
+            </ul></td>
+            </tr>
+          </table>
           <h2 id="output">II: Output</h2>
           <p class="pad">
             After exploring inputs, I also explored outputs from the dropdown
@@ -777,10 +811,77 @@
             </ul>
           </div>
           <p>
-            I believe that my revised component increases accessibility at the
-            expense of efficiency.
+            My revised component increases accessibility at the expense of
+            efficiency. Adding a "Confirm" button means that frequent users have
+            one more click or key to press before they can submit their
+            selection from the dropdown menu. However, this increases
+            accessibility beacuse it means that users with fine motor control
+            issues will cannot accidentally submit their selection with one
+            click of the mouse or key press. Adding an extra confirmation
+            transition means that these users can accidentally select an option,
+            but change their selection without the window closing (which is the
+            currenet behavior of the component when any option is clicked).
+          </p>
+          <p>
+            This change also improves learnability and memorability in the sense
+            that it lets users know that the things that have popped up on
+            screen are all options to click, as implied by the "Confirm" button.
+            They can play around with clicking these options without the window
+            closing every time, and these lower stakes help users get
+            comfortable with the component faster.
+          </p>
+          <p>
+            In other ways, my redesign increases accessibility, without risking
+            other properties. For example, since I found that I could not focus
+            on the calendar dropdown menu outside of VoiceOver, in my redesign,
+            I specified that the tab key could be used to focus on the button.
+            This does not reduce learnability, memorability, nor efficiency, it
+            only increases accessibility.
           </p>
           <h2 id="reflection">IV: Reflection</h2>
+          <p>
+            When exploring the usability of the dropdown menus in EdStem, Apple
+            Calendar, and Starbucks, all three applications had interesting uses
+            of colors to reflect state back to the user. This guided me to use
+            colors that send signals to users about the state of the component
+            in my redesign, specifically designing how the hovered option is
+            highlighted in different colors than the selected option.
+          </p>
+          <p>
+            Comparing the accessibility of these three applications, the most
+            accessible component was EdStem's dropdown menu, since it was the
+            only one that I could fully navigate with the keyboard without
+            turning on VoiceOver. So, keyboard navigability was an acessibility
+            consideration missing from Apple Calendar and Starbucks, and in my
+            revised Apple Calendar dropdown state model, I specified that the
+            dropdown could be opened with the keyboard.
+          </p>
+          <p>
+            When thinking about making components more accessible, it's useful
+            to think through the lens of mismatches, or situations where an
+            interface creates unnecessary barriers for certain users due to a
+            lack of inclusive thinking. In my redesign, adding keyboard
+            navigability addresses the mismatch where users that only use the
+            keyboard can still interact with this component. Similarly, adding
+            the "Confirm" button addresses the mismatch where some users may
+            accidentally press or interact with these components, and the
+            confirmation step is more forgiving of accidental clicks.
+          </p>
+          <p>
+            In this sense, the lack of keyboard accessibility on the Apple
+            Calendar and Starbucks dropdowns negatively impacting those with
+            visual impairments, since focusing on the dropdown was impossible
+            without VoiceOver, which not all impaired users might use. On the
+            other hand, ARIA text read by VoiceOver is very beneficial to those
+            with visual impairments, and I found that of the three applications,
+            Starbucks' components had the most clear and descriptive ARIA text.
+          </p>
+          <p>
+            Thinking more generally, it seems that the mouse is the most often
+            prioritized when designing components, as many designers are fully
+            abled, but this means that they may forget to consider and design
+            for the experiences of those who are impaired.
+          </p>
           <h2 id="display">V: Display</h2>
           <p>Thank you for exploring this case study!</p>
           <p>
