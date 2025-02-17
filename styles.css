@@ -30,7 +30,8 @@
   position: -webkit-sticky;
   position: sticky;
   top: 5vh;
-  left: 3.5vw;
+  left: 3vw;
+  right: 3.5vw;
   border-color: #fff;
   background-color: #d3bfbf;
   font-weight: bold;
@@ -41,7 +42,7 @@
 }
 
 .numeral {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .numeral a {
@@ -109,11 +110,6 @@ table {
 
 .top-pad {
   padding-top: 20x;
-}
-
-.col {
-  width: 31%;
-  height: 50px;
 }
 
 .image-box {
