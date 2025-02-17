@@ -14,7 +14,7 @@
 }
 
 .main {
-  width: 78vw;
+  width: 80vw;
   /* height: 150vh; */
   border-color: #d3bfbf;
 }
@@ -25,7 +25,7 @@
 }
 
 .sidebar {
-  width: 6vw;
+  width: 4vw;
   height: 80vh;
   position: -webkit-sticky;
   position: sticky;
