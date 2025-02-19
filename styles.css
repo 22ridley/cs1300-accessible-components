@@ -78,7 +78,7 @@ li {
 }
 
 h3 {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 table,
@@ -131,4 +131,8 @@ table {
 
 th {
   background-color: #e6dbdb;
+}
+
+.img-pad {
+  padding-bottom: 50px;
 }
